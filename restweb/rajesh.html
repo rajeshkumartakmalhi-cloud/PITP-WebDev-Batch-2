@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajesh Kumar | Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary:#6a11cb;
+      --secondary:#2575fc;
+      --dark:#222;
+      --light:#f4f6fb;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+      font-family:'Poppins',sans-serif;
+      background:linear-gradient(120deg,var(--primary),var(--secondary));
+      padding:40px;
+    }
+    .resume{
+      max-width:900px;
+      margin:auto;
+      background:#fff;
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:0 20px 40px rgba(0,0,0,.2);
+      animation:fadeIn .8s ease;
+    }
+    @keyframes fadeIn{
+      from{opacity:0;transform:translateY(20px)}
+      to{opacity:1;transform:translateY(0)}
+    }
+    .header{
+      background:linear-gradient(120deg,var(--primary),var(--secondary));
+      color:#fff;
+      padding:30px;
+    }
+    .header h1{font-size:32px;font-weight:600;}
+    .header p{opacity:.9;margin-top:5px}
+    .content{
+      display:grid;
+      grid-template-columns:1fr 2fr;
+    }
+    .left{
+      background:var(--light);
+      padding:30px;
+    }
+    .right{
+      padding:30px;
+    }
+    h2{
+      font-size:18px;
+      margin-bottom:12px;
+      color:var(--primary);
+      border-left:4px solid var(--secondary);
+      padding-left:10px;
+    }
+    ul{list-style:none}
+    ul li{margin-bottom:8px;font-size:14px;color:#333}
+    .info p{font-size:14px;margin-bottom:8px}
+    .badge{
+      display:inline-block;
+      background:linear-gradient(120deg,var(--primary),var(--secondary));
+      color:#fff;
+      padding:6px 12px;
+      border-radius:20px;
+      font-size:12px;
+      margin:4px 4px 0 0;
+    }
+    .section{margin-bottom:25px}
+    .right p{font-size:14px;color:#444;line-height:1.7}
+    .footer{
+      text-align:center;
+      padding:15px;
+      font-size:12px;
+      color:#777;
+      background:#fafafa;
+    }
+    @media(max-width:768px){
+      .content{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume">
+    <div class="header">
+      <h1>Rajesh Kumar</h1>
+      <p>Web Developer | AI Intern</p>
+    </div>
+
+    <div class="content">
+      <!-- LEFT -->
+      <div class="left">
+        <div class="section info">
+          <h2>Contact</h2>
+          <p><strong>Phone:</strong> 0347-3189199</p>
+          <p><strong>Email:</strong> rajeshkumartakmalhi@gmail.com</p>
+          <p><strong>Current:</strong> Hyderabad</p>
+          <p><strong>Permanent:</strong> Umerkot</p>
+        </div>
+
+        <div class="section">
+          <h2>Skills</h2>
+          <ul>
+            <li>Artificial Intelligence Fundamentals</li>
+            <li>Machine Learning Basics</li>
+            <li>Prompt Engineering</li>
+            <li>Data Analysis (Beginner)</li>
+            <li>HTML, CSS, JavaScript (Basic)</li>
+            <li>MS Office & Internet Tools</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Strengths</h2>
+          <ul>
+            <li>Quick Learner</li>
+            <li>Remote Work Ready</li>
+            <li>Team Player</li>
+            <li>Highly Motivated</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="right">
+        <div class="section">
+          <h2>Career Objective</h2>
+          <p>
+            Motivated and passionate individual seeking a paid remote internship as a Web Developer or in Artificial Intelligence related fields to gain real-world experience, enhance technical expertise, and grow professionally under expert mentorship.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>Certifications (Coursera)</h2>
+          <span class="badge">AI for Everyone</span>
+          <span class="badge">Introduction to AI</span>
+          <span class="badge">Machine Learning Foundations</span>
+          <span class="badge">Generative AI Basics</span>
+          <span class="badge">Prompt Engineering</span>
+        </div>
+
+        <div class="section">
+          <h2>Education</h2>
+          <p><strong>Intermediate</strong><br>
+          <span style="font-size:13px;color:#666"></span></p>
+        </div>
+
+        <div class="section">
+          <h2>Declaration</h2>
+          <p>
+            I hereby declare that the information provided above is true and correct to the best of my knowledge.
+          </p>
+          <p style="margin-top:10px"><strong>Rajesh Kumar</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © 2025 Rajesh Kumar | Resume
+    </div>
+  </div>
+
+</body>
+</html>

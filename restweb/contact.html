@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Spicy Delight</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    main {
+        flex: 1;
+    }
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .contact-info, .contact-form {
+        flex: 1 1 400px;
+        background-color: #fff5ee;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .contact-info h3 {
+        color: #ff5733;
+        margin-bottom: 15px;
+    }
+    .contact-info p {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 12px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+    .contact-form button {
+        background-color: #ff5733;
+        color: #fff;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 6px;
+        transition: 0.3s;
+    }
+    .contact-form button:hover {
+        background-color: #ff7f50;
+    }
+    iframe {
+        width: 100%;
+        height: 350px;
+        border: none;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Spicy Delight Restaurant</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<main>
+<section>
+    <h2>Contact & Location</h2>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Our Location</h3>
+            <p><strong>Address:</strong> 123 Main Street, Hyderabad, Sindh, Pakistan</p>
+            <iframe src="https://www.google.com/maps?q=Hyderabad+Sindh+Pakistan&output=embed" allowfullscreen></iframe>
+        </div>
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <p>&copy; 2025 Spicy Delight Restaurant | All Rights Reserved</p>
+</footer>
+</body>
+</html>
